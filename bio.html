@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+
+    <title>SumOne</title>
+    <link rel="stylesheet" media="(min-width: 1301px)" href="ss/global_xlarge.css" />
+    <link rel="stylesheet" media="(min-width: 1301px)" href="ss/bio/bio_xlarge.css" />
+    <link rel="stylesheet" media="(min-width: 901px) and (max-width: 1300px)" href="ss/global_large.css" />
+    <link rel="stylesheet" media="(min-width: 901px) and (max-width: 1300px)" href="ss/bio/bio_large.css" />
+    <link rel="stylesheet" media="(min-width: 501px) and (max-width: 900px)" href="ss/global_medium.css" />
+    <link rel="stylesheet" media="(min-width: 501px) and (max-width: 900px)" href="ss/bio/bio_medium.css" />
+    <link rel="stylesheet" media="(max-width: 500px)" href="ss/global_small.css" />
+    <link rel="stylesheet" media="(max-width: 500px)" href="ss/bio/bio_small.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Economica|Nunito|Orbitron|Tangerine|Ubuntu" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <nav id=navBar>
+      <div>
+        <a href="welcome.html"><p id="navWelcome">Welcome</p></a>
+        <a href="home.php"><button class="nav">Home</button></a>
+        <div class="dropTrigger" class="nav">
+         <button class="nav" id="whoAmWe">Who Am We &#9662;</button>
+         <div class="dropNav">
+           <a href="philosophy.html">Philosophy</a>
+           <a href="#">Bio</a>
+           <a href="howtohelp.html">How To Help</a>
+         </div>
+        </div>
+        <a href="contact.php"><button class="nav">Contact</button></a>
+        <!-- <a href="archive.html"><p id="navArchive">Archive</p></a> -->
+        <img onclick="globeTrek()" id="navEarth" src="mats/earth/earth360nav.gif" alt="The Earth"/>
+      <!--<img id="navEarth" src="mats/earth.png" alt="The Earth"/>-->
+      </div>
+    </nav>
+
+
+
+
+
+    <h1 id="title">What I Am</h1>
+    <section id="contentBox">
+
+      <h2>Under Construction</h2>
+
+
+
+    </section>
+
+
+    <footer id=endbar>
+      <div id="cc_logo">
+        <img id="cc_img" src="mats/cc.png" alt="(cc)"/>
+      </div>
+      <div id="cc_clause">
+        <h6>All content on this site is shared, and may be used under Creative
+        Commons for any project, anywhere.  Please create responsibly and
+        intelligibly.  Please voice your oppionion, and acknowledge that you
+        may be wrong.<br> <a href="#" id="termsconditions" onclick="termsConditions()">terms conditions</a></h6>
+      </div>
+    </footer>
+
+    <script src="js/global.js">
+    globeTrek();
+    </script>
+    <script type='text/javascript' src='js/jquery-3.2.0.js'></script>
+    <script type='text/javascript' src='js/bio.js'></script>
+
+  </body>
+</html>

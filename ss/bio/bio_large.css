@@ -1,0 +1,107 @@
+#title{
+  font-family: "Orbitron";
+  font-size: 300%;
+  line-height: 300%;
+  text-shadow: 2px 1px blue;
+  padding: 10px 0px 20px 40px;
+  min-width: 600px;
+}
+
+/*The container with the main content divs of the site*/
+#contentBox{
+  width: 100%;
+  margin:5px 0 0 50px;
+  min-height: 1000px;
+}
+
+#contentBox p{
+  font-family: "Ubuntu";
+  font-size: 110%;
+  color: black;
+  text-align: justify;
+}
+
+#photoBio{
+  margin: auto;
+}
+h2{
+  position: absolute;
+  font-family: "Tangerine";
+  font-size: 300%;
+}
+#humanBody{
+  height: 600px;
+  width: 44%;
+  display: inline-block;
+  border: 2px solid black;
+  transition: all .5s;
+}
+#humanCover{
+  height: 100%;
+  width:100%;
+  background-image: url("../../mats/bio/fox.jpg");
+  background-size: cover;
+  display: inline-block;
+  border: 2px solid black;
+}
+#humanUncovered{
+  height: 100%;
+  width:100%;
+  background-image: url("../../mats/bio/manwireframe.png");
+  background-size: cover;
+  display: inline-block;
+  border: 2px solid black;
+  display:none;
+}
+
+
+
+#theTools{
+  height: 600px;
+  width: 45%;
+  display: inline-block;
+  border: 2px solid blue;
+  transition: all .5s;
+
+}
+#theCase{
+  height: 100%;
+  width: 100%;
+  background-image: url("../../mats/bio/violinandbow.jpg");
+  background-size: cover;
+  display: none;
+}
+#caseOpened{
+  height: 100%;
+  width:100%;
+  background-image: url("../../mats/bio/manwireframe.png");
+  background-size: cover;
+  display: inline;
+  border: 2px solid black;
+
+}
+.thing{
+  display: inline-block;
+  transition: all .34s;
+}
+.thing:hover{
+  background: white;
+  border: 2px solid green;
+}
+#theBow{
+  height: 300px;
+  width: 20px;
+  background-image: url('../../mats/bio/bow.png');
+  background-size: cover;
+  display: inline-block;
+}
+#testDiv{
+  height: 600px;
+  width: 10px;
+  border: 1px solid green;
+  background-image: url('../../mats/bio/violin.png');
+  background-size: cover;
+  display: inline-block;
+
+
+}

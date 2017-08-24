@@ -1,0 +1,47 @@
+#title{
+  font-family: "Orbitron";
+  font-size: 250%;
+  line-height: 100%;
+  text-shadow: 1.5px 0.8px blue;
+  padding: 10px 0px 20px 30px;
+  margin-top: 60px;
+  min-width: 350px;
+}
+/*The container with the main content divs of the site*/
+#contentBox{
+  width: 95%;
+  min-width: 300px;
+  margin:5px 0 0 8px;
+  justify-content: center;
+}
+
+
+.reasons{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px auto;
+  width: 95%;
+}
+.reasons > h2{
+  font-family: "Orbitron";
+  font-size: 130%;
+  text-shadow: 1px 0.5px blue;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.reasons > p{
+  font-family: "Ubuntu";
+  font-size: 120%;
+  color: black;
+  text-indent: 30px;
+  padding: 0px 25px;
+}
+.reasons > a{
+  padding: 0px 25px;
+}
+
+
+
+.inActive{
+  display: none;
+}

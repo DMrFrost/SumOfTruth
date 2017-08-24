@@ -1,0 +1,96 @@
+#homeTitle{
+  font-family: "Orbitron";
+  font-size: 300%;
+  text-shadow: 2px 1px blue;
+  padding: 10px 0px 20px 40px;
+  min-width: 600px;
+}
+/*The container with the main content divs of the site*/
+#homeContentBox{
+  width: 75%;
+  margin:5px 0 0 80px;
+  justify-content: center;
+  min-height: 1000px;
+}
+#homeContentBox p{
+  font-family: "Ubuntu";
+  font-size: 100%;
+  color: black;
+  text-align: justify;
+}
+
+.contentDiv{
+  height: 135px;
+  width: 80%;
+  min-width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 20px 0px 30px 0px ;
+  border-radius: 10px;
+  background: linear-gradient(rgb(150,200,250),rgb(180,180,140));
+  box-shadow: 3px 2px 1px 0 black;
+  position: relative;
+}
+.contentDiv:hover{
+  background: linear-gradient(rgb(150,200,255),rgb(230,200,150));
+}
+.contentDiv p{
+  font-family: "Nunito";
+  font-size: 230%;
+  text-align: justify;
+  width: 75%;
+  max-width: 500px;
+  min-width: 300px;
+  display: inline-block;
+  position: relative;
+}
+.contentDiv h2{
+  font-family: "Nunito";
+}
+.contentDiv img{
+  float: right;
+  position: relative;
+  bottom: 20px;
+  right: 10px;
+  box-shadow: 3px 2px 1px 0 black;
+  object-position: right;
+}
+.bottomTabs{
+font-family: "Economica";
+font-size: 80%;
+color: black;
+position: relative;
+bottom: 30px;
+left: 370px;
+display: inline;
+}
+.contentDate{
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  margin: 0px 3px;
+}
+.contentAuthor{
+  border: 1px solid black;
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+
+}
+
+#introDiv{
+  height: 80px;
+  width: 250px;
+  margin: auto;
+  font-family: "Ubuntu";
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  border: 2px solid yellow;
+  background: rgba(200, 200, 100, 0.6);
+  position: absolute;
+  display: inline-block;
+  top: 130px;
+  left: 73%;
+ }

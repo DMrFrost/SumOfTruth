@@ -1,0 +1,12 @@
+The Man Who Tested Code
+SumOne
+March/12/2017
+When I was a young boy, I slowly became a young man, and now I stand as a man in this world, ready to do my piece, and leave this world with no regrets.  I will stand and breath and live and create and learn until the moment I die, and in the peace that death brings I will feel filled with accomplishment and curiosity as to what awaits me next.  This is a test to see if this is read into an array as one line, or as many lines.
+ Now we begin a new line on purpose, this will get placed into an array also, and when the array is sorting it will know that this is simply a paragraph, no because it will read it all, but rather becasue it will cound from the last array index to know what is date, author, and then content before.
+<img>contentImages/testContent01.jpg
+A final paragraph to round it out.  What things can I say to finish my thought?  How can I better understand what I dont and you all know it is to be some sort of truth or another.  Some words as I write spelling flies high till pies in the mountains roam free.  What more could you want from such a bird.  tell me and fly frr from your dungeon.
+Once apon a time I was a fox boxed in by by the walks of live living the esences of the universe cursed form the dirt which i sprang and rang like a bell til the hell hounds found silent in the drems of their sleepless nights.
+The End.
+<ref>Tonrad Elliot www.ctrain.com/conrad
+<ref>Gui Spindler www.pepperfox.org/oneatatime
+<ref>Spaceman Spiff www.TheSpaciest.caseme.orange

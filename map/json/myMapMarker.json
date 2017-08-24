@@ -1,0 +1,14 @@
+{
+  "myMarkers" : [
+    {
+      "name" : "marker0",
+      "map" : "mapCanvas",
+      "position" : {
+        "lat" : 45.5,
+        "lng" : -122.61
+      },
+      "description" : "Portland OR",
+      "infoWindow" : "The origin of the journey, where my roots are, and were many great people live"
+    }
+  ]
+}

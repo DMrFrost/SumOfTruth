@@ -1,0 +1,103 @@
+.clear{
+  clear: both;
+}
+
+#title{
+  font-family: "Orbitron";
+  font-size: 300%;
+  line-height: 200%;
+  text-shadow: 2px 1px blue;
+  padding: 10px 0px 20px 40px;
+  min-width: 600px;
+}
+
+/*The container with the main content divs of the site*/
+#contentBox{
+  width: 90%;
+  max-width: 1000px;
+  margin:5px 0 0 80px;
+  justify-content: center;
+}
+
+/*This selects all paragraphs in the body for edit, while allowing paragraphs in
+sub divs like .contactMode to be modified independently*/
+  #contentBox > p{
+  font-family: "Ubuntu";
+  font-size: 140%;
+  color: black;
+  text-indent: 40px;
+}
+
+.contactMode{
+  height: 270px;
+  min-height: 270px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+  float: left;
+  padding: 10px 20px;
+  margin: 0px 0px 20px 10px;
+  box-shadow: 3px 2px 3px black;
+}
+.contactModeP{
+  font-family: "Economica", Arial, sans-serif;
+  font-size: 150%;
+}
+.contactMode h2{
+  font-family: "Economica", Arial, sans-serif;
+  font-size: 160%;
+}
+#buttonTalk{
+  position: relative;
+  top: 10px;
+}
+#buttonOffer{
+  position: relative;
+  top: 10px;
+}
+#buttonAsk{
+  position: relative;
+  top: 10px;
+}
+#contactModeTalk{
+  background: linear-gradient(rgb(180, 240, 250), rgb(100, 180, 180));
+  border: 2px solid rgb(100, 120, 240);
+}
+#contactModeOffer{
+  background: linear-gradient(rgb(250, 210, 180), rgb(190, 130, 120));
+  border: 2px solid rgb(255, 110, 110);
+
+}
+#contactModeAsk{
+  background: linear-gradient(rgb(180, 250, 170), rgb(120, 200, 110));
+  border: 2px solid green;
+}
+#contactCommunity{
+  font-family: "Economica";
+  height: 180px;
+  width: 85%;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  background: linear-gradient(rgb(230, 240, 140), rgb(180, 200, 100));
+  text-align: center;
+  padding: 10px 20px;
+  margin: 20px auto;
+  box-shadow: 3px 2px 3px black;
+  display: block;
+}
+#contactCommunity h2{
+  font-size: 160%;
+}
+#contactCommunity p{
+  font-size: 150%;
+}
+#buttonCommunity{
+  position: relative;
+  top: 10px;
+}
+
+/*Text Span in howToHelp.html*/
+.globeTrekSpan{
+  color: blue;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+
+p{
+  margin-left: 30px;
+}
+h2{
+  font-family: "Orbitron", Ariel, sans-serif;
+  text-shadow: 1px 0.5px blue;
+  margin: 20px 20px 0px 20px;
+}
+input{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+textarea{
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+
+#letsTalk{
+  height: 100%;
+  background: linear-gradient(rgb(180, 240, 250), rgb(100, 180, 180));
+  border: 2px solid rgb(100, 120, 240);
+  border-radius: 5px;
+}
+#askHelp{
+  height: 100%;
+  background: linear-gradient(rgb(180, 250, 170), rgb(120, 200, 110));
+  border: 2px solid green;
+  border-radius: 5px;
+}
+#offerHelp{
+  height: 100%;
+  background: linear-gradient(rgb(250, 210, 180), rgb(190, 130, 120));
+  border: 2px solid rgb(255, 110, 110);
+  border-radius: 5px;
+}
+
+.successDiv{
+  height: 100%;
+}

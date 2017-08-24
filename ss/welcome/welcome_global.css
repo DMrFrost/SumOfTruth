@@ -1,0 +1,51 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html{
+  background: linear-gradient(white, rgb(140, 160, 200), rgb(100, 100, 100));
+}
+
+
+
+
+
+
+
+
+
+
+
+#endbar{
+  height: 120px;
+  min-width: 300px;
+  border:1px solid Black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-size: cover;
+}
+
+#cc_logo{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#cc_img{
+  width: 80%;
+}
+
+#cc_clause{
+  width: 25%;
+  min-width: 200px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 100%;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  display: inline-block;
+  margin: 25px 0px 0px 100px;
+}

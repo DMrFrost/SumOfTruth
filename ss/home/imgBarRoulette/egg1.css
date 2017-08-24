@@ -1,0 +1,26 @@
+
+
+
+@media only screen and (min-width: 901px)
+{
+    #navBar{
+      background-image: url("../../mats/barImgs/large/egg01l.jpg");
+    }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px)
+{
+    #navBar{
+      background-image: url("../../mats/barImgs/medium/egg01m.jpg");
+    }
+
+}
+
+@media only screen and (max-width: 500px)
+{
+    #navBar{
+      background-image: url("../../mats/barImgs/small/egg01s.jpg");
+    }
+
+}

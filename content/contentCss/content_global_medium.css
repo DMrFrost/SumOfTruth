@@ -1,0 +1,202 @@
+*{
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+html{
+  background: linear-gradient(white, rgb(160, 180, 220), rgb(140, 140, 140));
+}
+img{
+  margin: 10px;
+}
+.imgRight{
+  float: right;
+  max-width: 60%;
+  height: auto;
+}
+.imgLeft{
+  float: left;
+  max-width: 60%;
+  height: auto;
+}
+
+/*top nav bar for all sites*/
+#navBar{
+  height: 130px;
+  border: 1px solid black;
+  position: relative;
+  background: url("../contentMats/path7l.jpg") no-repeat 0px 0px;
+  background-size: cover;
+}
+.nav{
+  color: black;
+  text-shadow: .25px .5px Blue;
+  font-family: "Ubuntu", Arial, sans-serif;;
+  font-size: 120%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 4px 6px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline;
+  position: relative;
+  top: 60px;
+  transition: all .34s;
+}
+#navWelcome{
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 70%;
+  color: black;
+  text-shadow: .125px .25px Blue;
+  border: 1px solid Black;
+  border-radius: 0 0 4px 0;
+  background-color: rgba(200, 200,200, 0.4);
+  display: inline-block;
+  position: absolute;
+  padding: 2px 5px;
+  transition: background-color .34s;
+  overflow: hidden;
+}
+#navArchive{
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 70%;
+  color: black;
+  text-shadow: .125px .25px Blue;
+  border: 1px solid Black;
+  border-radius: 4px 4px 0 0;
+  background-color: rgba(200, 200,200, 0.4);
+  padding: 2px 5px;
+  display: inline-block;
+  position:relative;
+  top: 105px;
+  left: 10%;
+  transition: background-color .34s;
+  overflow: hidden;
+}
+.nav:hover, #navWelcome:hover, #navArchive:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+/*this is the div that contains the droptown button in content*/
+#dropDown{
+  display: none;
+  position: absolute;
+  top:103px;
+  left: 205px;
+}
+/*These are the dropdown content buttons*/
+.dropNav {
+ display: none;
+ position: absolute;
+ top: 92px;
+ left: 22px;
+ background-color: rgba(255, 255, 255, 0.7);
+ color: black;
+ font-family: "Ubuntu", Arial, sans-serif;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 2;
+}
+/* Links inside the dropdown */
+.dropNav a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+.dropNav a:hover{
+  background-color: rgba(140, 180, 200, 0.7);
+}
+/*The div the triggers dropdown to display: block; and contains the button Who Am We
+in the navigation bar*/
+.dropTrigger {
+ position: relative;
+ display: inline-block;
+}
+/*The even of dropping the nav options*/
+.dropTrigger:hover .dropNav {
+  display: block;
+}
+.dropTrigger:hover #whoAmWe{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+#navEarth{
+  height: 110px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  border-radius: 100px;
+  transition: box-shadow .2s;
+  display: inline;
+
+}
+#navEarth:hover{
+  cursor: pointer;
+  box-shadow: 5px 3px 3px rgb(140, 160, 240);
+}
+
+
+#contentBox{
+  width:90%;
+  min-width: 400px;
+  margin:  auto;
+}
+#title{
+  font-family: "Orbitron", Arial, sans-serif;;
+  font-size: 160%;
+  text-shadow: 1px .5px blue;
+  padding: 10px 0px 20px 40px;
+  min-width: 400px;
+}
+#contentBox p{
+  min-width: 350px;
+  font-family: "Ubuntu", Arial, sans-serif;;
+  font-size: 110%;
+  text-align: justify;
+  text-indent: 40px;
+}
+#Author{
+  font-family:"Tangerine", Arial, sans-serif;;
+  font-size: 150%;
+}
+#Date{
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 100%;
+}
+
+#contentBox h4{
+  font-family: "Nunito", Arial, sans-serif;;
+  font-size: 60%;
+}
+
+#endbar{
+  height: 120px;
+  min-width: 300px;
+  border:1px solid Black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: url("../contentMats/footerRedAutumnM.jpg");
+  background-size: cover;
+}
+#cc_logo{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#cc_img{
+  width: 60%;
+}
+#cc_clause{
+  width: 25%;
+  min-width: 200px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 100%;
+  text-align: center;
+  color: rgb(200, 200, 200);
+  display: inline-block;
+  margin: 25px 0px 0px 110px;
+}

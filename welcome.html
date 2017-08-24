@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8">
+    <title>SumOne</title>
+    <link rel="stylesheet" href="ss/welcome/welcome_global.css"/>
+    <link rel="stylesheet" media="(min-width: 1301px)" href="ss/welcome/welcome_xlarge.css"/>
+    <link rel="stylesheet" media="(min-width: 901px) and (max-width: 1300px)" href="ss/welcome/welcome_large.css"/>
+    <link rel="stylesheet" media="(min-width: 501px) and (max-width: 900px)" href="ss/welcome/welcome_medium.css"/>
+    <link rel="stylesheet" media="(max-width: 500px)" href="ss/welcome/welcome_small.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Economica|Orbitron|Ubuntu" rel="stylesheet"/>
+
+    <script src="jquery-3.2.0.js"></script>
+    <script src="welcome.js"></script>
+  </head>
+
+  <body>
+    <nav id=navBar>
+      <div>
+          <a href="home.php"><button class="nav">Home</button></a>
+          <div class="dropTrigger" class="nav">
+           <button class="nav" id="whoAmWe">Who Am We &#9662;</button>
+           <div class="dropNav">
+             <a href="philosophy.html">Philosophy</a>
+             <a href="bio.html">Bio</a>
+             <a href="howtohelp.html">How To Help</a>
+           </div>
+          </div>
+          <a href="contact.php"><button class="nav">Contact</button></a>
+        <!--<img id="navEarth" src="mats/earth.png" alt="The Earth"/>-->
+      </div>
+    </nav>
+
+    <!-- <section id="tutorialOption">
+      <p>Would you like a tour and introduction to the features of this website?</p>
+      <button id="startTour">Start Tour</button>
+    </section>
+
+
+    <section id="tutorialBox">
+      <h2>Welcome To &#10145; SumWhere</h2>
+      <p>If you know me, you may be interesting to learn that the globe in the upper
+      right hand corner can be clicked to see where in the world I am.  As of right now
+      I am two.</p>
+    </section> -->
+
+    <h1 id="title">On a Journey</h1>
+
+    <section id="welcomeBody">
+
+      <br><p>Hello World, I am SumOne. </p><br><p>I am just like you. In fact in what Ive seen
+        of the world we all share allot in common.  We are all humans, seeking survival,
+        happiness, friendship comfort and our place here on this world of ours.
+        I am just like you, I am confused, ignorant, scared, and for the most part
+        acting out of instinct and habbit rather than acting consciously.  I am
+        offended by the suffering which is all around and allowed to continue every
+        day.  I am lost in the chaos of the world, and in the impossible task of
+        finding and understanding the truth of myself and my surroundings.</p><br>
+
+
+
+        <!--This code and picture tage, allows me to load a differnt img/gif depending
+        on the size of the available window-->
+        <div id=earthImg>
+            <picture onclick="headHome()">
+              <source media="(max-width: 500px)" srcset="mats/earth/earth360small.gif">
+              <source media="(max-width: 4000px)" srcset="mats/earth/earth360.gif">
+              <img id="earth" src="mats/earth/earth360.gif" alt="Planet Earth">
+            </picture>
+        </div>
+
+
+        Yet...<br><br>
+        <p>I love my planet and the vibrant life here. The art and culture that
+        people create and share with one another is exquisit.  The beauty and the
+        kindness I see from so many people, combined with the miracle of the Earth
+        and the abundance it provides, leaves me feeling blessed everyday.  Every
+        breath I take, every glass of water I drink, every meal and their many
+        ingrediants I eat... Ifeel so fortunate in this life that I say
+        "Thank You", but thats not enough.</p><br>
+
+        <p>
+        I am SumOne, someone who has decided to live life pursuing the good of the
+        whole.  I follow my curiosity in the hopes that there may yet be truth to be
+        found... hidden in the chaos and information of the world.</p><br>  <br>
+
+        <p>I am SumOne, I aim to walk, talk, ask and learn... help others, build, connect
+        and trust in others as they have trusted in me.  I dedicate my life to the
+        journey of studying and working, every moment, in the hopes that hummanity
+        and the greater picture may find some value in understanding the Self, the World,
+        and the Humanity we are all a part of.</p><br>
+
+        <p>We all feel a potential to be something great, and the power to change the
+        world.  We all feel the fabric of life which connects us to one another
+        and to the world at large. We, humans, are amazing creatures, we are powerful
+        creatures, look at what we can do when we work together.  Its time we start
+        using that power, our power, responsibly, and purposefully.  Take your personal
+        power back, and start creating the world you have always wanted to see.</p><br>
+
+
+          <div id="forwardToHome" onclick="headHome()">
+            <h2>Head to the Homepage</h2>
+          </div>
+
+        </section>
+
+
+
+
+    <footer id=endbar>
+      <div id="cc_logo">
+        <img id="cc_img" src="mats/cc.png" alt="(cc)"/>
+      </div>
+      <div id="cc_clause">
+        <h6>All content on this site is shared, and may be used under Creative
+        Commons for any project, anywhere.  Please create responsibly and
+        intelligibly.  Please voice your oppionion, and acknowledge that you
+        may be wrong.<br> <a href="#" id="termsconditions" onclick="termsConditions()">terms conditions</a></h6>
+      </div>
+    </footer>
+
+
+    <script>
+      function headHome(){
+        window.location = "home.php";
+      }
+    </script>
+
+    <script src="./js/global.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,207 @@
+
+#navBar{
+  height: 130px;
+  border: 1px solid black;
+  position: relative;
+  background: url("../mats/barImgs/medium/egg01m.jpg") no-repeat 0px 0px;
+  background-size: cover;
+}
+.nav{
+  color: black;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 120%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 4px 6px;
+  margin-left: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline;
+  position: relative;
+  top: 60px;
+  transition: all .34s;
+}
+.nav:hover{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#dropDown{
+  display: none;
+  position: absolute;
+  top:103px;
+  left: 245px;
+
+}
+.dropNav {
+ display: none;
+ position: absolute;
+ top: 92px;
+ left: 30px;
+ background-color: rgba(255, 255, 255, 0.5);
+ color: black;
+ font-family: "Ubuntu", Arial, sans-serif;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 2;
+}
+
+/* Links inside the dropdown */
+.dropNav a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+.dropNav a:hover{
+  background-color: rgba(140, 180, 200, 0.7);
+}
+/*The div the triggers dropdown to display: block; and contains the button Who Am We
+in the navigation bar*/
+.dropTrigger {
+ position: relative;
+ display: inline-block;
+}
+/*The even of dropping the nav options*/
+.dropTrigger:hover .dropNav {
+  display: block;
+}
+.dropTrigger:hover #whoAmWe{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#navEarth{
+  height: 90px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+  border-radius: 100px;
+  transition: box-shadow .2s;
+
+}
+#navEarth:hover{
+  cursor: pointer;
+  box-shadow: 5px 3px 3px rgb(140, 160, 240);
+}
+
+#welcomeBody{
+  max-height: 2000px;
+  width: 90%;
+  min-width: 500px;
+  margin: 55px 0 25px 60px;
+  justify-content: center;
+  z-index: 1;
+  position:relative;
+}
+
+
+#title{
+  min-width: 500px;
+  font-family: "Orbitron", Arial, sans-serif;
+  font-size: 300%;
+  text-shadow: 2px 1px blue;
+  line-height: 200%;
+  display: inline;
+  position: relative;
+  left: 70px;
+  top: 80px;
+  z-index: 1;
+}
+
+
+#welcomeBody p{
+  max-width: 700px;
+  min-width: 300px;
+  font-family: "Ubuntu", Arial, sans-serif;;
+  font-size: 120%;
+  text-align: justify;
+  text-indent: 40px;
+  width: 75%;
+  z-index: 1;
+}
+
+
+
+
+/*The spinning earth.gif*/
+#earthImg{
+  width: 45px;
+  border-radius: 250px;
+  position: relative;
+  z-index: -2;
+}
+
+
+#forwardToHome{
+  width: 200px;
+  height: 80px;
+  font-family: "Ubuntu";
+  border: 1px solid black;
+  border-radius: 5px;
+  background: rgba(100, 150, 200, 0.5);
+  cursor: pointer;
+  position:relative;
+  display: inline-block;
+  left: 80px;
+
+}
+
+#forwardToHome h2{
+  margin: 10px 20px;
+}
+
+
+#tutorialBox{
+  display: none;
+  height: 600px;
+  width: 400px;
+  border: 3px solid yellow;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+  background: rgba(200, 200, 100, .8);
+  left: 30%;
+  bottom: 50px;
+}
+#tutorialBox p{
+  font-family: "Ubuntu";
+  font-size: 140%;
+  line-height: 120%;
+  margin: auto;
+  padding: 20px;
+
+}
+#tutorialBox h2{
+  font-family: "Orbitron", Arial, sans-serif;
+  font-size: 200%;
+  margin: 10px 20px 10px 30px;
+  text-shadow: blue .5px 1px;
+}
+
+/*This is the box presentpresenting the option to begin tutorial should the user
+click the button within*/
+#tutorialOption{
+  height: 220px;
+  width: 110px;
+  background-color: rgba(200, 200, 100, .8);
+  border: 3px solid yellow;
+  border-radius: 5px;
+  position: relative;
+  top: 1050px;
+  float: right;
+  z-index: 10;
+}
+#tutorialOption p{
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 100%;
+  text-align: center;
+  padding: 10px 20px;
+}
+#startTour{
+  display: block;
+  position: relative;
+  left: 15px;
+  bottom: 6px;
+}
+
+#endbar{
+  background-image: url("../mats/footerRedAutumnM.jpg");
+}
